@@ -1,6 +1,6 @@
 (function () {
     //TODO: Sau sẽ đẩy link (http://localhost:5001/messenger/modules/home/client/css/iframe_messenger.css) lên server helpdesk
-    const  e = '<link rel="stylesheet" type="text/css" href="https://lonelystar.cf/messenger/modules/home/client/css/iframe_messenger.css"/>' +
+    const  e = '<link rel="stylesheet" type="text/css" href="https://rawgit.com/ginneversmile/chat.embed.js/master/chat.embed.css"/>' +
         '<link rel="stylesheet" type="text/css" href="https://helpdesk.inet.vn/public/css/libs/font-awesome.css"/>' +
         '<div id="embed_chat"><a href="javascript:void(0)" id="embed_chat_avatar" class="txt-sz-2e"><i class="fa fa-comments-o"></i></a><div id="counter"></div></div>' +
         '<div id="embed_container">\n' +
@@ -8,7 +8,7 @@
         '        <small id="count-unread-message"></small>\n' +
         '    </div>\n' +
         '    <div class="iframe-wrap">\n' +
-        '<a id="embed_open_full_screen" class="embed-nav-right" href="https://chat.inet.vn/messenger/" target="_blank"><i class="fa fa-external-link-square"></i></a>' +
+        '<a id="embed_open_full_screen" class="embed-nav-right" href="https://lonelystar.cf" target="_blank"><i class="fa fa-external-link-square"></i></a>' +
         '<a href="javascript:void(0)" class="embed-nav-right" id="embed_close"><i class="fa fa-close"></i></a>' +
         '       <iframe id="embed_iframe" src="https://lonelystar.cf/messenger/embed/customercare@inet.vn?embed&source='+encodeURI(window.location.href)+'" frameborder="0"\n'+
         '                scrolling="no"></iframe>\n' +
