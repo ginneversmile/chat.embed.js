@@ -183,6 +183,12 @@ a.embed-nav-right:hover {
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+#i-embed-chat-wrap.stop-animate {
+	animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
 
 @keyframes belleffect {
 
