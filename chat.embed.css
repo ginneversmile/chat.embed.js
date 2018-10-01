@@ -183,7 +183,7 @@ a.embed-nav-right:hover {
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-#i-embed-chat-wrap[stopanimate=true] {
+#i-embed-chat-wrap[stopanimate] {
 	animation-play-state: paused;
 	-o-animation-play-state: paused;
 	-moz-animation-play-state: paused;
