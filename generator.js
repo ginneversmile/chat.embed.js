@@ -7,5 +7,5 @@ const data = {
 }
 renderTemplateFile('./rawfile.txt',data)
     .then(resp=>{
-        fs.writeFileSync('./chat.embed.js',resp);
+        fs.writeFileSync('./dev.chat.embed.js',resp);
     })
