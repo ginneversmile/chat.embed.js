@@ -36,7 +36,7 @@
         show = true;
         count = 0;
         embedChat.style.display = "none";
-		document.getElementById('i-embed-chat-wrap').className = 'stop-animate';
+		document.getElementById('i-embed-chat-wrap').setAttribute("stopAnimate", "true");
     };
     //setdefault value
     let count = 0;
@@ -47,7 +47,7 @@
         show = false;
         counter.style.display = "none";
         counter.innerText = "";
-		document.getElementById('i-embed-chat-wrap').classList.remove("stop-animate");
+		document.getElementById('i-embed-chat-wrap').removeAttribute("stopAnimate");
     });
     let gunPost = null;
     window.onload = function () {
