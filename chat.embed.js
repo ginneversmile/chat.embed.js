@@ -28,7 +28,7 @@
     const embedClose = document.getElementById("embed_close");
     const frame = document.getElementById("embed_iframe");
     const counter = document.getElementById("counter");
-    frame.contentWindow.postMessage(document.href, "*");
+    frame.contentWindow.postMessage("sayHello", "*");
     frame.style.cssText = "width: 400px; height: 450px;";
     embedChat.onclick = function () {
         embedContainer.style.display = "block";
@@ -52,7 +52,7 @@
     window.onload = function () {
         const iframeWin = frame.contentWindow;
         gunPost = setInterval(function () {
-            iframeWin.postMessage(document.href, "*");
+            iframeWin.postMessage("myMessage.value", "*");
             console.log('wait for ...')
         },50);
     };
