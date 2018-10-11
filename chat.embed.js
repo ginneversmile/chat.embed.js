@@ -35,8 +35,8 @@
   frame.contentWindow.postMessage("sayHello", "*");
   frame.style.cssText = "width: 400px; height: 450px;";
   embedChat.onclick = function() {
-    if (!messageCount.getAttribute("src")) {
-      messageCount.setAttribute("src", messageCount.getAttribute("data-src"));
+    if (!frame.getAttribute("src")) {
+      frame.setAttribute("src", frame.getAttribute("data-src"));
     }
     embedContainer.style.display = "block";
     show = true;
