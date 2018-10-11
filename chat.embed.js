@@ -11,7 +11,7 @@
     '    <div class="iframe-wrap">\n' +
     '<a id="embed_open_full_screen" class="embed-nav-right" href="https://chat.inet.vn" target="_blank"><i class="fa fa-external-link-square"></i></a>' +
     '<a href="javascript:void(0)" class="embed-nav-right" id="embed_close"><i class="fa fa-close"></i></a>' +
-    '       <iframe id="embed_iframe" src="https://chat.inet.vn/messenger/embed/customercare@inet.vn?embed&source=' +
+    '       <iframe id="embed_iframe" data-src="https://chat.inet.vn/messenger/embed/customercare@inet.vn?embed&source=' +
     encodeURI(window.location.href) +
     '" frameborder="0"\n' +
     '                scrolling="no"></iframe>\n' +
@@ -35,6 +35,9 @@
   frame.contentWindow.postMessage("sayHello", "*");
   frame.style.cssText = "width: 400px; height: 450px;";
   embedChat.onclick = function() {
+    if (!messageCount.getAttribute("src")) {
+      messageCount.setAttribute("src", messageCount.getAttribute("data-src"));
+    }
     embedContainer.style.display = "block";
     show = true;
     count = 0;
