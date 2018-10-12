@@ -216,3 +216,32 @@ a.embed-nav-right:hover {
     }
 
 }
+
+@media screen and (max-width: 768px) {
+	#i-embed-chat-wrap[stopanimate=true] {
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: auto;
+	}
+	#i-embed-chat-wrap[stopanimate=true] #embed_iframe {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-height: 414px) {
+	#i-embed-chat-wrap[stopanimate=true] #embed_iframe {
+		height: 318px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
