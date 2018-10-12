@@ -231,7 +231,7 @@ a.embed-nav-right:hover {
 
 @media screen and (max-height: 414px) {
 	#i-embed-chat-wrap[stopanimate=true] #embed_iframe {
-		height: 318px;
+		height: 318px !important;
 	}
 }
 
