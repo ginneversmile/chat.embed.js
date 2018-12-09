@@ -1,7 +1,7 @@
 (function() {
   //TODO: Sau sẽ đẩy link (http://localhost:5001/messenger/modules/home/client/css/iframe_messenger.css) lên server helpdesk
   const e =
-    '<link rel="stylesheet" type="text/css" href="https://rawgit.com/ginneversmile/chat.embed.js/master/chat.embed.css"/>' +
+    '<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ginneversmile/chat.embed.js@master/chat.embed.css"/>' +
     '<link rel="stylesheet" type="text/css" href="https://helpdesk.inet.vn/public/css/libs/font-awesome.css"/>' +
     '<div id="embed_chat"><a href="javascript:void(0)" id="embed_chat_avatar" class="txt-sz-2e"><i class="fa fa-bell"></i></a><div id="counter"></div></div>' +
     '<div id="embed_container">\n' +
